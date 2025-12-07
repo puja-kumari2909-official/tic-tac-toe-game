@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+
+    box-shadow: 2px 2px 3px 4px rgb(61, 40, 40);
+    background-color: rgba(35, 8, 26, 0.379);
+    font-size: 10vmin;
+    font-weight: bold;
+    border: none;
+}
+
+.nbtn {
+    height: 8vmin;
+    width: 15vmin;
+    border-radius: 4rem;
+    background-color: rgba(31, 1, 1, 0.687);
+    color: white;
+    border: none;
+
+}
+
+.rbtn {
+    height: 8vmin;
+    width: 15vmin;
+    border-radius: 4rem;
+    background-color: rgba(31, 1, 1, 0.687);
+    color: white;
+    border: none;
+}
+
+.meg {
+    font-size: 10vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.meg-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hide {
+    display: none;
+}
+
+.btn {
+    height: 4vmin;
+    width: 9vmin;
+
+    border-radius: 7rem;
+    background-color: rgba(109, 8, 58, 0.687);
+    color: white;
+
+}
+
+.light {
+    background-color: rgb(236, 236, 228);
+
+
+}
+
+.dark {
+    background-color: rgba(38, 34, 34, 0.716);
+
+
+}
